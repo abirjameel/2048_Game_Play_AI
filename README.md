@@ -19,7 +19,7 @@ project.
 The Minimax Algorithm. There are many viable strategies to beat the 2048-puzzle game, but in this project we will be practicing with the minimax algorithm.
 
 ##### Alpha-Beta Pruning
- This should speed up the search process by eliminating irrelevant branches. 
+This should speed up the search process by eliminating irrelevant branches. 
 
 ##### Heuristic Functions
 To limit the maximum height of the game tree. Unlike elementary games like tic-tac-toe, in this game it is highly impracticable to search the entire depth of the theoretical game tree.
@@ -51,13 +51,13 @@ This inherits BaseAI. The `getMove()` function, returns a number that indicates 
 In particular, 0 stands for "Up", 1 stands for "Down", 2 stands for "Left",
  and 3 stands for "Right".
 - **BaseDisplayer.py and Displayer.py:**
- These print the grid.
+These print the grid.
  
  ## How to run 
- Use the following commands to run this program. 
+Use the following commands to run this program. 
  
- `python3 GameManager_3.py`  
+`python3 GameManager_3.py`  
  
- or if you are on windows with python 3.5+ as your default python. 
+or if you are on windows with python 3.5+ as your default python. 
 
- `python GameManager_3.py`
+`python GameManager_3.py`

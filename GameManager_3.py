@@ -18,8 +18,8 @@ actionDic = {
 (PLAYER_TURN, COMPUTER_TURN) = (0, 1)
 
 # Time Limit Before Losing
-timeLimit = 0.2
-allowance = 0.05
+timeLimit = 0.15
+allowance = 0.04
 
 class GameManager:
     def __init__(self, size = 4):
